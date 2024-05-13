@@ -1,0 +1,877 @@
+2024-05-12 18:30:56,709 p=1999274 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 18:30:57,732 p=2002017 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 18:31:14,683 p=2067104 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 18:31:16,106 p=2068861 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 18:32:24,651 p=2351941 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 18:32:25,750 p=2354782 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 18:36:07,037 p=3249013 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 18:36:07,041 p=3249013 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 18:36:07,253 p=3249013 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:36:07,255 p=3249013 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:36:07,268 p=3249013 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 18:36:07,278 p=3249013 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 18:36:48,541 p=3432997 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 18:36:48,542 p=3432997 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 18:36:48,701 p=3432997 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:36:48,701 p=3432997 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:36:48,703 p=3432997 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 18:36:48,708 p=3432997 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 18:38:21,076 p=3843374 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 18:38:21,076 p=3843374 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 18:38:21,259 p=3843374 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:38:21,260 p=3843374 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:38:21,276 p=3843374 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 18:38:21,289 p=3843374 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 18:38:34,453 p=3896558 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 18:38:34,454 p=3896558 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 18:38:34,656 p=3896558 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:38:34,656 p=3896558 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 18:38:34,684 p=3896558 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 18:38:34,699 p=3896558 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 18:41:04,231 p=292035 u=ravi n=ansible | ERROR! the playbook: plays.yml could not be found
+2024-05-12 18:41:49,463 p=492278 u=ravi n=ansible | ERROR! the playbook: plays.yml could not be found
+2024-05-12 18:41:59,312 p=538393 u=ravi n=ansible | ERROR! the playbook: plays.yml could not be found
+2024-05-12 18:42:01,347 p=546523 u=ravi n=ansible | ERROR! the playbook: plays could not be found
+2024-05-12 18:50:43,339 p=2839946 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 18:50:44,556 p=2841474 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 18:51:45,370 p=3100704 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 18:51:46,396 p=3103188 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 18:58:54,547 p=653053 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 18:58:55,827 p=655231 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:00:19,490 p=991183 u=ravi n=ansible | ERROR! Empty playbook, nothing to do: /home/ravi/ansible/playbooks/plays.yml
+2024-05-12 19:01:56,742 p=1331358 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 19:01:56,743 p=1331358 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 19:01:56,852 p=1331358 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 19:01:56,853 p=1331358 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 19:01:56,855 p=1331358 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 19:01:56,859 p=1331358 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 19:07:29,226 p=2816045 u=ravi n=ansible | ERROR! Empty playbook, nothing to do: /home/ravi/ansible/playbooks/plays.yml
+2024-05-12 19:08:02,562 p=2949265 u=ravi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: webservers
+
+2024-05-12 19:08:02,562 p=2949265 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:08:03,519 p=2951914 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:08:56,907 p=3171167 u=ravi n=ansible | [WARNING]: Could not match supplied host pattern, ignoring: webservers
+
+2024-05-12 19:08:56,907 p=3171167 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:08:57,889 p=3173869 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:14:16,987 p=433017 u=ravi n=ansible | {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    },
+    "ungrouped": {
+        "hosts": [
+            "ravi.dev"
+        ]
+    }
+}
+2024-05-12 19:14:19,731 p=440326 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:14:20,773 p=442938 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:18:59,382 p=1618026 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 19:18:59,383 p=1618026 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 19:18:59,494 p=1618026 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 19:18:59,495 p=1618026 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 19:18:59,497 p=1618026 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 19:18:59,504 p=1618026 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 19:20:19,967 p=1947543 u=ravi n=ansible | ansible-inventory [core 2.16.6]
+  config file = /home/ravi/ansible/ansible.cfg
+  configured module search path = ['/home/ravi/ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible
+  ansible collection location = /home/ravi/ansible/collections:/usr/share/ansible/collections
+  executable location = /home/ravi/ansible/.venv/bin/ansible-inventory
+  python version = 3.11.9 (main, Apr 10 2024, 13:16:36) [GCC 13.2.0] (/home/ravi/ansible/.venv/bin/python3)
+  jinja version = 3.1.4
+  libyaml = True
+2024-05-12 19:20:19,971 p=1947543 u=ravi n=ansible | Using /home/ravi/ansible/ansible.cfg as config file
+2024-05-12 19:20:20,111 p=1947543 u=ravi n=ansible | host_list declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 19:20:20,114 p=1947543 u=ravi n=ansible | script declined parsing /home/ravi/ansible/inventory/hosts.yml as it did not pass its verify_file() method
+2024-05-12 19:20:20,120 p=1947543 u=ravi n=ansible | Parsed /home/ravi/ansible/inventory/hosts.yml inventory source with yaml plugin
+2024-05-12 19:20:20,127 p=1947543 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 19:20:35,487 p=2011009 u=ravi n=ansible | @all:
+  |--@ungrouped:
+  |  |--ravi.dev
+2024-05-12 19:21:01,238 p=2111181 u=ravi n=ansible | ERROR! conflicting action statements: command, apt
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Get time and date
+      ^ here
+
+2024-05-12 19:21:47,770 p=2300526 u=ravi n=ansible | ERROR! conflicting action statements: command, apt
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Get time and date
+      ^ here
+
+2024-05-12 19:24:57,742 p=3089667 u=ravi n=ansiblelint.cli | Invalid configuration file /home/ravi/ansible/.ansible-lint. $ Additional properties are not allowed ('verbose' was unexpected). See https://ansible.readthedocs.io/projects/lint/configuring/
+2024-05-12 19:24:57,812 p=3089691 u=ravi n=ansiblelint.cli | Invalid configuration file /home/ravi/ansible/.ansible-lint. $ Additional properties are not allowed ('verbose' was unexpected). See https://ansible.readthedocs.io/projects/lint/configuring/
+2024-05-12 19:24:57,908 p=3089719 u=ravi n=ansiblelint.cli | Invalid configuration file /home/ravi/ansible/.ansible-lint. $ Additional properties are not allowed ('verbose' was unexpected). See https://ansible.readthedocs.io/projects/lint/configuring/
+2024-05-12 19:25:23,455 p=3200674 u=ravi n=ansiblelint.cli | Invalid configuration file /home/ravi/ansible/.ansible-lint. $ Additional properties are not allowed ('verbose' was unexpected). See https://ansible.readthedocs.io/projects/lint/configuring/
+2024-05-12 19:28:07,130 p=3868061 u=ravi n=ansible | ERROR! conflicting action statements: command, apt
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Get time and date
+      ^ here
+
+2024-05-12 19:28:20,322 p=3921366 u=ravi n=ansible | ERROR! conflicting action statements: ansible.builtin.command, apt
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Get time and date
+      ^ here
+
+2024-05-12 19:33:42,003 p=877254 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:33:42,957 p=879461 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:33:43,243 p=879461 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:34:11,962 p=967345 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:34:12,854 p=969191 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:34:13,000 p=969191 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:34:13,717 p=971210 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:34:14,558 p=973945 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:34:14,790 p=973945 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:37:06,814 p=1725366 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:37:07,716 p=1727234 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:37:08,057 p=1727234 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:37:08,437 p=1728302 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:37:09,360 p=1730675 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:37:09,501 p=1730675 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:37:15,972 p=1752837 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:37:16,719 p=1754571 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:37:16,980 p=1754571 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:37:17,477 p=1756075 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:37:18,312 p=1758760 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:37:18,521 p=1758760 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:38:02,753 p=1936463 u=ravi n=ansible | ERROR! conflicting action statements: ansible.builtin.apt, apt
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Get time and date
+      ^ here
+
+2024-05-12 19:38:07,102 p=1951222 u=ravi n=ansible | [WARNING]: errors were encountered during the plugin load for
+ansible.builtin.apt: ['endswith first arg must be str or a tuple of str, not
+list']
+
+2024-05-12 19:38:07,102 p=1951222 u=ravi n=ansible | ERROR! couldn't resolve module/action 'ansible.builtin.apt'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Get time and date
+      ^ here
+
+2024-05-12 19:38:17,231 p=1986396 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:38:17,380 p=1986680 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:38:17,992 p=1988149 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:38:18,080 p=1988461 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:38:18,220 p=1988149 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:38:18,282 p=1982041 u=ravi n=ansiblelint.runner | /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible/plugins/loader.py:605 AnsibleWarning errors were encountered during the plugin load for ansible.builtin.command:
+['endswith first arg must be str or a tuple of str, not list']
+2024-05-12 19:38:18,348 p=1988461 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:38:18,426 p=1982410 u=ravi n=ansiblelint.runner | /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible/plugins/loader.py:605 AnsibleWarning errors were encountered during the plugin load for ansible.builtin.command:
+['endswith first arg must be str or a tuple of str, not list']
+2024-05-12 19:38:33,724 p=2043923 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:38:33,830 p=2044119 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:38:34,627 p=2045801 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:38:34,713 p=2046036 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:38:34,766 p=2045801 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:38:34,829 p=2039553 u=ravi n=ansiblelint.runner | /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible/plugins/loader.py:605 AnsibleWarning errors were encountered during the plugin load for ansible.builtin.command:
+['endswith first arg must be str or a tuple of str, not list']
+2024-05-12 19:38:34,864 p=2046036 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:38:34,930 p=2039865 u=ravi n=ansiblelint.runner | /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible/plugins/loader.py:605 AnsibleWarning errors were encountered during the plugin load for ansible.builtin.command:
+['endswith first arg must be str or a tuple of str, not list']
+2024-05-12 19:42:51,372 p=3101868 u=ravi n=ansible | ERROR! no module/action detected in task.
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Print to the screen
+      ^ here
+
+2024-05-12 19:42:51,389 p=3101900 u=ravi n=ansible | ERROR! no module/action detected in task.
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Print to the screen
+      ^ here
+
+2024-05-12 19:42:52,252 p=3102770 u=ravi n=ansible | ERROR! no module/action detected in task.
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 6, column 7, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+  tasks:
+    - name: Print to the screen
+      ^ here
+
+2024-05-12 19:43:08,781 p=3154840 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:43:08,944 p=3155278 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:43:09,737 p=3156700 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:43:09,842 p=3157049 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:43:09,928 p=3156700 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:43:10,290 p=3157049 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:43:13,478 p=3164637 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:43:13,630 p=3165059 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:43:14,292 p=3166567 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:43:14,386 p=3166929 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:43:14,477 p=3166567 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:43:14,645 p=3166929 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:43:58,951 p=3327367 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 19:43:59,698 p=3330112 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 19:43:59,945 p=3330112 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 19:44:00,014 p=3321774 u=ravi n=ansiblelint.runner | /home/ravi/ansible/.venv/lib/python3.11/site-packages/ansible/plugins/loader.py:605 AnsibleWarning errors were encountered during the plugin load for ansible.builtin.debug:
+['endswith first arg must be str or a tuple of str, not list']
+2024-05-12 19:47:55,428 p=101479 u=ravi n=ansible | ERROR! 'ansible.builtin.shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 11, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Get uptime information
+  ^ here
+
+2024-05-12 19:47:55,559 p=101704 u=ravi n=ansible | ERROR! 'ansible.builtin.shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 11, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Get uptime information
+  ^ here
+
+2024-05-12 19:47:56,341 p=102857 u=ravi n=ansible | ERROR! 'ansible.builtin.shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 11, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Get uptime information
+  ^ here
+
+2024-05-12 19:49:08,002 p=371430 u=ravi n=ansible | ERROR! 'ansible.builtin.shell' is not a valid attribute for a Play
+
+The error appears to be in '/home/ravi/ansible/playbooks/plays.yml': line 11, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Get uptime information
+  ^ here
+
+2024-05-12 20:56:53,885 p=4117913 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 20:56:54,845 p=4120820 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 20:56:55,060 p=4120820 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 21:15:41,278 p=393237 u=ravi n=ansible | playbook: playbooks/plays.yml
+2024-05-12 21:15:42,008 p=395802 u=ravi n=ansible | [WARNING]: Collection at '/home/ravi/.cache/ansible-
+compat/0cb87f/collections/ansible_collections/fake_namespace/fake_collection'
+does not have a MANIFEST.json file, nor has it galaxy.yml: cannot detect
+version.
+
+2024-05-12 21:15:42,320 p=395802 u=ravi n=ansible | {
+    "ansible.builtin.runas": "Run As user",
+    "ansible.builtin.su": "Substitute User",
+    "ansible.builtin.sudo": "Substitute User DO",
+    "ansible.netcommon.enable": "Switch to elevated permissions on a network device",
+    "community.general.doas": "Do As user",
+    "community.general.dzdo": "Centrify's Direct Authorize",
+    "community.general.ksu": "Kerberos substitute user",
+    "community.general.machinectl": "Systemd's machinectl privilege escalation",
+    "community.general.pbrun": "PowerBroker run",
+    "community.general.pfexec": "profile based execution",
+    "community.general.pmrun": "Privilege Manager run",
+    "community.general.sesu": "CA Privileged Access Manager",
+    "community.general.sudosu": "Run tasks using sudo su -",
+    "containers.podman.podman_unshare": "Run tasks using podman unshare"
+}
+2024-05-12 21:18:59,847 p=1245983 u=ravi n=ansible | ERROR! Empty playbook, nothing to do: /home/ravi/ansible/playbooks/plays.yml
+2024-05-12 21:19:00,146 p=1246425 u=ravi n=ansible | ERROR! Empty playbook, nothing to do: /home/ravi/ansible/playbooks/plays.yml
+2024-05-13 13:46:29,791 p=2971 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:46:29,960 p=2971 u=rgehlot n=ansible | - downloading role 'nginx', owned by geerlingguy
+2024-05-13 13:46:30,249 p=2971 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-nginx/archive/3.2.0.tar.gz
+2024-05-13 13:46:30,573 p=2971 u=rgehlot n=ansible | - extracting geerlingguy.nginx to /home/rgehlot/ansible/roles/geerlingguy.nginx
+2024-05-13 13:46:30,581 p=2971 u=rgehlot n=ansible | - geerlingguy.nginx (3.2.0) was installed successfully
+2024-05-13 13:47:39,386 p=3097 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:47:39,508 p=3097 u=rgehlot n=ansible | - downloading role 'php', owned by geerlingguy
+2024-05-13 13:47:40,086 p=3097 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-php/archive/5.0.1.tar.gz
+2024-05-13 13:47:40,496 p=3097 u=rgehlot n=ansible | - extracting geerlingguy.php to /home/rgehlot/ansible/roles/geerlingguy.php
+2024-05-13 13:47:40,506 p=3097 u=rgehlot n=ansible | - geerlingguy.php (5.0.1) was installed successfully
+2024-05-13 13:48:03,580 p=3136 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:48:03,722 p=3136 u=rgehlot n=ansible | - downloading role 'apache', owned by geerlingguy
+2024-05-13 13:48:04,026 p=3136 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-apache/archive/4.0.0.tar.gz
+2024-05-13 13:48:04,373 p=3136 u=rgehlot n=ansible | - extracting geerlingguy.apache to /home/rgehlot/ansible/roles/geerlingguy.apache
+2024-05-13 13:48:04,382 p=3136 u=rgehlot n=ansible | - geerlingguy.apache (4.0.0) was installed successfully
+2024-05-13 13:48:23,766 p=3184 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:48:23,889 p=3184 u=rgehlot n=ansible | - downloading role 'composer', owned by geerlingguy
+2024-05-13 13:48:24,227 p=3184 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-composer/archive/1.9.2.tar.gz
+2024-05-13 13:48:24,525 p=3184 u=rgehlot n=ansible | - extracting geerlingguy.composer to /home/rgehlot/ansible/roles/geerlingguy.composer
+2024-05-13 13:48:24,531 p=3184 u=rgehlot n=ansible | - geerlingguy.composer (1.9.2) was installed successfully
+2024-05-13 13:49:14,098 p=3274 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:49:14,227 p=3274 u=rgehlot n=ansible | - downloading role 'nfs', owned by geerlingguy
+2024-05-13 13:49:14,527 p=3274 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-nfs/archive/2.0.0.tar.gz
+2024-05-13 13:49:14,830 p=3274 u=rgehlot n=ansible | - extracting geerlingguy.nfs to /home/rgehlot/ansible/roles/geerlingguy.nfs
+2024-05-13 13:49:14,836 p=3274 u=rgehlot n=ansible | - geerlingguy.nfs (2.0.0) was installed successfully

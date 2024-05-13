@@ -1,0 +1,27 @@
+{
+  "name": "ansible-controller-scaffolding",
+  "version": "1.0.0",
+  "description": "Ansible Controller Scaffolding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "/homelab/ansible-controller-scaffolding"
+  },
+  "keywords": [
+    "ansible",
+    "homelab",
+    "controller",
+    "node",
+    "automation"
+  ],
+  "author": "Ravi Gehlot",
+  "license": "ISC",
+  "devDependencies": {
+    "@fontsource/fira-code": "^5.0.18",
+    "prettier": "^3.2.5",
+    "prettier-plugin-jinja-template": "^1.4.0"
+  }
+}

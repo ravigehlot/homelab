@@ -1,0 +1,61 @@
+{
+  "folders": [
+    {
+      "name": "ansible",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": "normal",
+    "prettier.enable": true,
+    "prettier.configPath": "/home/rgehlot/homelab/ansible/.prettierrc",
+    "editor.fontSize": 18,
+    "editor.fontLigatures": true,
+    "editor.defaultFormatter": "redhat.ansible",
+    "editor.minimap.autohide": true,
+    "editor.folding": true,
+    "editor.foldingHighlight": true,
+    "editor.autoIndent": "full",
+    "editor.formatOnSave": true,
+    "editor.wrappingIndent": "same",
+    "editor.wordWrap": "on",
+    "github.copilot.advanced": {
+      "enabled": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "github.copilot.editor.enableAutoCompletions": true,
+    "ansible.validation.lint.enabled": true,
+    "ansible.completion.provideRedirectModules": true,
+    "ansible.completion.provideModuleOptionAliases": true,
+    "redhat.telemetry.enabled": false,
+    "ansible.validation.lint.path": "/home/rgehlot/homelab/ansible/.venv/bin/ansible-lint",
+    "ansible.lightspeed.suggestions.enabled": false, // Requires a license to access to IBM watson Code Assistant.
+    "ansible.lightspeed.enabled": false, // Requires a license to access to IBM watson Code Assistant.
+    "ansible.python.activationScript": "/home/rgehlot/homelab/ansible/.venv/bin/activate",
+    "ansible.python.interpreterPath": "/home/rgehlot/homelab/ansible/.venv/bin/python3",
+    "ansible.ansibleNavigator.path": "/home/rgehlot/homelab/ansible/.venv/bin/ansible-navigator",
+    "ansible.ansible.path": "/home/rgehlot/homelab/ansible/.venv/bin/ansible",
+    "ansible.ansible.useFullyQualifiedCollectionNames": true,
+    "files.associations": {
+      "*.yml": "ansible", // ansible does not support formatting.
+      "*.yaml": "yaml"
+    },
+    "ansible.executionEnvironment.enabled": false,
+    "ansibleServer.trace.server": "verbose",
+  },
+  "extensions": {
+    "recommendations": [
+      "redhat.ansible",
+      "GitHub.copilot",
+      "GitHub.copilot-chat",
+      "yzhang.markdown-all-in-one",
+      "esbenp.prettier-vscode",
+      "ms-python.python",
+      "ms-python.debugpy",
+      "ms-vscode-remote.remote-wsl",
+      "redhat.vscode-yaml"
+    ]
+  }
+}
