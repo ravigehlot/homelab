@@ -1,3 +1,0 @@
-[submodule "ansible/roles/ansible-role-ntp"]
-	path = ansible/roles/ansible-role-ntp
-	url = git@github.com:geerlingguy/ansible-role-ntp.git
