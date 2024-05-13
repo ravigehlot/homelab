@@ -875,3 +875,611 @@ version.
 2024-05-13 13:49:14,527 p=3274 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-nfs/archive/2.0.0.tar.gz
 2024-05-13 13:49:14,830 p=3274 u=rgehlot n=ansible | - extracting geerlingguy.nfs to /home/rgehlot/ansible/roles/geerlingguy.nfs
 2024-05-13 13:49:14,836 p=3274 u=rgehlot n=ansible | - geerlingguy.nfs (2.0.0) was installed successfully
+2024-05-13 13:55:23,032 p=4165 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:55:23,197 p=4165 u=rgehlot n=ansible | - downloading role 'memcached', owned by geerlingguy
+2024-05-13 13:55:23,494 p=4165 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-memcached/archive/2.2.0.tar.gz
+2024-05-13 13:55:23,961 p=4165 u=rgehlot n=ansible | - extracting geerlingguy.memcached to /home/rgehlot/homelab/ansible/roles/geerlingguy.memcached
+2024-05-13 13:55:23,966 p=4165 u=rgehlot n=ansible | - geerlingguy.memcached (2.2.0) was installed successfully
+2024-05-13 13:57:07,439 p=4325 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:57:07,581 p=4325 u=rgehlot n=ansible | - downloading role 'ntp', owned by geerlingguy
+2024-05-13 13:57:07,950 p=4325 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-ntp/archive/2.5.0.tar.gz
+2024-05-13 13:57:08,446 p=4325 u=rgehlot n=ansible | - extracting geerlingguy.ntp to /home/rgehlot/homelab/ansible/roles/geerlingguy.ntp
+2024-05-13 13:57:08,451 p=4325 u=rgehlot n=ansible | - geerlingguy.ntp (2.5.0) was installed successfully
+2024-05-13 13:57:19,956 p=4347 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:57:20,086 p=4347 u=rgehlot n=ansible | - downloading role 'php-xdebug', owned by geerlingguy
+2024-05-13 13:57:20,375 p=4347 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-php-xdebug/archive/3.1.0.tar.gz
+2024-05-13 13:57:20,715 p=4347 u=rgehlot n=ansible | - extracting geerlingguy.php-xdebug to /home/rgehlot/homelab/ansible/roles/geerlingguy.php-xdebug
+2024-05-13 13:57:20,720 p=4347 u=rgehlot n=ansible | - geerlingguy.php-xdebug (3.1.0) was installed successfully
+2024-05-13 13:57:20,721 p=4347 u=rgehlot n=ansible | [WARNING]: - dependency geerlingguy.php (None) from role geerlingguy.php-xdebug differs from already installed version (5.0.1), skipping
+
+2024-05-13 13:57:43,770 p=4387 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:57:43,899 p=4387 u=rgehlot n=ansible | - downloading role 'repo-epel', owned by geerlingguy
+2024-05-13 13:57:44,204 p=4387 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-repo-epel/archive/3.1.1.tar.gz
+2024-05-13 13:57:44,493 p=4387 u=rgehlot n=ansible | - extracting geerlingguy.repo-epel to /home/rgehlot/homelab/ansible/roles/geerlingguy.repo-epel
+2024-05-13 13:57:44,496 p=4387 u=rgehlot n=ansible | - geerlingguy.repo-epel (3.1.1) was installed successfully
+2024-05-13 13:58:54,686 p=4496 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 13:58:54,808 p=4496 u=rgehlot n=ansible | - downloading role 'mysql', owned by geerlingguy
+2024-05-13 13:58:55,106 p=4496 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-mysql/archive/4.3.4.tar.gz
+2024-05-13 13:58:55,495 p=4496 u=rgehlot n=ansible | - extracting geerlingguy.mysql to /home/rgehlot/homelab/ansible/roles/geerlingguy.mysql
+2024-05-13 13:58:55,501 p=4496 u=rgehlot n=ansible | - geerlingguy.mysql (4.3.4) was installed successfully
+2024-05-13 14:00:25,640 p=4632 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:00:26,261 p=4632 u=rgehlot n=ansible | - downloading role 'ssl-certs', owned by jdauphant
+2024-05-13 14:00:26,975 p=4632 u=rgehlot n=ansible | - downloading role from https://github.com/jdauphant/ansible-role-ssl-certs/archive/v1.7.1.tar.gz
+2024-05-13 14:00:27,504 p=4632 u=rgehlot n=ansible | - extracting jdauphant.ssl-certs to /home/rgehlot/homelab/ansible/roles/jdauphant.ssl-certs
+2024-05-13 14:00:27,507 p=4632 u=rgehlot n=ansible | - jdauphant.ssl-certs (v1.7.1) was installed successfully
+2024-05-13 14:00:59,576 p=4687 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:00:59,985 p=4687 u=rgehlot n=ansible | - downloading role 'nodejs', owned by geerlingguy
+2024-05-13 14:01:00,460 p=4687 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-nodejs/archive/7.0.0.tar.gz
+2024-05-13 14:01:00,724 p=4687 u=rgehlot n=ansible | - extracting geerlingguy.nodejs to /home/rgehlot/homelab/ansible/roles/geerlingguy.nodejs
+2024-05-13 14:01:00,728 p=4687 u=rgehlot n=ansible | - geerlingguy.nodejs (7.0.0) was installed successfully
+2024-05-13 14:01:23,169 p=4727 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:01:23,302 p=4727 u=rgehlot n=ansible | - downloading role 'postgresql', owned by geerlingguy
+2024-05-13 14:01:23,883 p=4727 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-postgresql/archive/3.5.1.tar.gz
+2024-05-13 14:01:24,308 p=4727 u=rgehlot n=ansible | - extracting geerlingguy.postgresql to /home/rgehlot/homelab/ansible/roles/geerlingguy.postgresql
+2024-05-13 14:01:24,318 p=4727 u=rgehlot n=ansible | - geerlingguy.postgresql (3.5.1) was installed successfully
+2024-05-13 14:02:04,242 p=4791 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:02:04,389 p=4791 u=rgehlot n=ansible | - downloading role 'filebeat', owned by geerlingguy
+2024-05-13 14:02:04,732 p=4791 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-filebeat/archive/3.6.0.tar.gz
+2024-05-13 14:02:05,138 p=4791 u=rgehlot n=ansible | - extracting geerlingguy.filebeat to /home/rgehlot/homelab/ansible/roles/geerlingguy.filebeat
+2024-05-13 14:02:05,142 p=4791 u=rgehlot n=ansible | - geerlingguy.filebeat (3.6.0) was installed successfully
+2024-05-13 14:02:21,577 p=4819 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:02:21,725 p=4819 u=rgehlot n=ansible | - downloading role 'jenkins', owned by geerlingguy
+2024-05-13 14:02:22,196 p=4819 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-jenkins/archive/5.1.0.tar.gz
+2024-05-13 14:02:22,481 p=4819 u=rgehlot n=ansible | - extracting geerlingguy.jenkins to /home/rgehlot/homelab/ansible/roles/geerlingguy.jenkins
+2024-05-13 14:02:22,486 p=4819 u=rgehlot n=ansible | - geerlingguy.jenkins (5.1.0) was installed successfully
+2024-05-13 14:02:40,442 p=4853 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:02:40,562 p=4853 u=rgehlot n=ansible | - downloading role 'git', owned by geerlingguy
+2024-05-13 14:02:40,857 p=4853 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-git/archive/3.0.1.tar.gz
+2024-05-13 14:02:41,344 p=4853 u=rgehlot n=ansible | - extracting geerlingguy.git to /home/rgehlot/homelab/ansible/roles/geerlingguy.git
+2024-05-13 14:02:41,347 p=4853 u=rgehlot n=ansible | - geerlingguy.git (3.0.1) was installed successfully
+2024-05-13 14:03:36,503 p=4938 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:03:36,629 p=4938 u=rgehlot n=ansible | - downloading role 'redis', owned by geerlingguy
+2024-05-13 14:03:36,992 p=4938 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-redis/archive/1.8.0.tar.gz
+2024-05-13 14:03:37,366 p=4938 u=rgehlot n=ansible | - extracting geerlingguy.redis to /home/rgehlot/homelab/ansible/roles/geerlingguy.redis
+2024-05-13 14:03:37,371 p=4938 u=rgehlot n=ansible | - geerlingguy.redis (1.8.0) was installed successfully
+2024-05-13 14:04:07,035 p=4987 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:04:07,150 p=4987 u=rgehlot n=ansible | - downloading role 'certbot', owned by geerlingguy
+2024-05-13 14:04:07,450 p=4987 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-certbot/archive/5.1.0.tar.gz
+2024-05-13 14:04:07,702 p=4987 u=rgehlot n=ansible | - extracting geerlingguy.certbot to /home/rgehlot/homelab/ansible/roles/geerlingguy.certbot
+2024-05-13 14:04:07,707 p=4987 u=rgehlot n=ansible | - geerlingguy.certbot (5.1.0) was installed successfully
+2024-05-13 14:04:36,556 p=5036 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:04:36,679 p=5036 u=rgehlot n=ansible | - downloading role 'security', owned by geerlingguy
+2024-05-13 14:04:37,103 p=5036 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-security/archive/2.3.0.tar.gz
+2024-05-13 14:04:37,434 p=5036 u=rgehlot n=ansible | - extracting geerlingguy.security to /home/rgehlot/homelab/ansible/roles/geerlingguy.security
+2024-05-13 14:04:37,439 p=5036 u=rgehlot n=ansible | - geerlingguy.security (2.3.0) was installed successfully
+2024-05-13 14:05:01,537 p=5076 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:05:01,683 p=5076 u=rgehlot n=ansible | - downloading role 'newrelic-infra', owned by newrelic
+2024-05-13 14:05:02,094 p=5076 u=rgehlot n=ansible | - downloading role from https://github.com/newrelic/infrastructure-agent-ansible/archive/0.13.0.tar.gz
+2024-05-13 14:05:02,633 p=5076 u=rgehlot n=ansible | - extracting newrelic.newrelic-infra to /home/rgehlot/homelab/ansible/roles/newrelic.newrelic-infra
+2024-05-13 14:05:02,644 p=5076 u=rgehlot n=ansible | - newrelic.newrelic-infra (0.13.0) was installed successfully
+2024-05-13 14:05:27,068 p=5119 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:05:27,247 p=5119 u=rgehlot n=ansible | - downloading role 'repo-remi', owned by geerlingguy
+2024-05-13 14:05:27,598 p=5119 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-repo-remi/archive/2.1.0.tar.gz
+2024-05-13 14:05:28,010 p=5119 u=rgehlot n=ansible | - extracting geerlingguy.repo-remi to /home/rgehlot/homelab/ansible/roles/geerlingguy.repo-remi
+2024-05-13 14:05:28,015 p=5119 u=rgehlot n=ansible | - geerlingguy.repo-remi (2.1.0) was installed successfully
+2024-05-13 14:05:51,756 p=5159 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:05:51,923 p=5159 u=rgehlot n=ansible | - downloading role 'firewall', owned by geerlingguy
+2024-05-13 14:05:52,268 p=5159 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-firewall/archive/2.5.1.tar.gz
+2024-05-13 14:05:52,646 p=5159 u=rgehlot n=ansible | - extracting geerlingguy.firewall to /home/rgehlot/homelab/ansible/roles/geerlingguy.firewall
+2024-05-13 14:05:52,650 p=5159 u=rgehlot n=ansible | - geerlingguy.firewall (2.5.1) was installed successfully
+2024-05-13 14:06:54,625 p=5256 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:06:54,751 p=5256 u=rgehlot n=ansible | - downloading role 'netplan', owned by mrlesmithjr
+2024-05-13 14:06:55,025 p=5256 u=rgehlot n=ansible | - downloading role from https://github.com/mrlesmithjr/ansible-netplan/archive/v0.4.1.tar.gz
+2024-05-13 14:06:55,563 p=5256 u=rgehlot n=ansible | - extracting mrlesmithjr.netplan to /home/rgehlot/homelab/ansible/roles/mrlesmithjr.netplan
+2024-05-13 14:06:55,578 p=5256 u=rgehlot n=ansible | - mrlesmithjr.netplan (v0.4.1) was installed successfully
+2024-05-13 14:07:41,766 p=5329 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:07:41,892 p=5329 u=rgehlot n=ansible | - downloading role 'ansible', owned by geerlingguy
+2024-05-13 14:07:42,176 p=5329 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-ansible/archive/2.3.0.tar.gz
+2024-05-13 14:07:43,074 p=5329 u=rgehlot n=ansible | - extracting geerlingguy.ansible to /home/rgehlot/homelab/ansible/roles/geerlingguy.ansible
+2024-05-13 14:07:43,077 p=5329 u=rgehlot n=ansible | - geerlingguy.ansible (2.3.0) was installed successfully
+2024-05-13 14:08:06,820 p=5369 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:08:07,038 p=5369 u=rgehlot n=ansible | - downloading role 'php-versions', owned by geerlingguy
+2024-05-13 14:08:07,421 p=5369 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-php-versions/archive/6.0.1.tar.gz
+2024-05-13 14:08:07,829 p=5369 u=rgehlot n=ansible | - extracting geerlingguy.php-versions to /home/rgehlot/homelab/ansible/roles/geerlingguy.php-versions
+2024-05-13 14:08:07,844 p=5369 u=rgehlot n=ansible | - geerlingguy.php-versions (6.0.1) was installed successfully
+2024-05-13 14:08:39,418 p=5421 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:08:39,584 p=5421 u=rgehlot n=ansible | - downloading role 'hosts', owned by arillso
+2024-05-13 14:08:39,892 p=5421 u=rgehlot n=ansible | - downloading role from https://github.com/arillso/ansible.hosts/archive/2.1.0.tar.gz
+2024-05-13 14:08:40,293 p=5421 u=rgehlot n=ansible | - extracting arillso.hosts to /home/rgehlot/homelab/ansible/roles/arillso.hosts
+2024-05-13 14:08:40,300 p=5421 u=rgehlot n=ansible | - arillso.hosts (2.1.0) was installed successfully
+2024-05-13 14:09:44,338 p=5521 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:09:44,492 p=5521 u=rgehlot n=ansible | - downloading role 'postfix', owned by arillso
+2024-05-13 14:09:44,782 p=5521 u=rgehlot n=ansible | - downloading role from https://github.com/arillso/ansible.postfix/archive/1.3.2.tar.gz
+2024-05-13 14:09:45,219 p=5521 u=rgehlot n=ansible | - extracting arillso.postfix to /home/rgehlot/homelab/ansible/roles/arillso.postfix
+2024-05-13 14:09:45,223 p=5521 u=rgehlot n=ansible | - arillso.postfix (1.3.2) was installed successfully
+2024-05-13 14:10:08,466 p=5561 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:10:08,601 p=5561 u=rgehlot n=ansible | - downloading role 'swap', owned by geerlingguy
+2024-05-13 14:10:08,885 p=5561 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-swap/archive/1.2.0.tar.gz
+2024-05-13 14:10:09,246 p=5561 u=rgehlot n=ansible | - extracting geerlingguy.swap to /home/rgehlot/homelab/ansible/roles/geerlingguy.swap
+2024-05-13 14:10:09,250 p=5561 u=rgehlot n=ansible | - geerlingguy.swap (1.2.0) was installed successfully
+2024-05-13 14:12:57,719 p=5814 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:12:57,879 p=5814 u=rgehlot n=ansible | - downloading role 'motd', owned by arillso
+2024-05-13 14:12:58,157 p=5814 u=rgehlot n=ansible | - downloading role from https://github.com/arillso/ansible.motd/archive/1.4.0.tar.gz
+2024-05-13 14:12:58,552 p=5814 u=rgehlot n=ansible | - extracting arillso.motd to /home/rgehlot/homelab/ansible/roles/arillso.motd
+2024-05-13 14:12:58,557 p=5814 u=rgehlot n=ansible | - arillso.motd (1.4.0) was installed successfully
+2024-05-13 14:13:15,329 p=5845 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:13:15,462 p=5845 u=rgehlot n=ansible | - downloading role 'wp-cli', owned by sbaerlocher
+2024-05-13 14:13:15,795 p=5845 u=rgehlot n=ansible | - downloading role from https://github.com/sbaerlocher/ansible.wp-cli/archive/1.3.1.tar.gz
+2024-05-13 14:13:16,095 p=5845 u=rgehlot n=ansible | - extracting sbaerlocher.wp-cli to /home/rgehlot/homelab/ansible/roles/sbaerlocher.wp-cli
+2024-05-13 14:13:16,098 p=5845 u=rgehlot n=ansible | - sbaerlocher.wp-cli (1.3.1) was installed successfully
+2024-05-13 14:13:45,725 p=5894 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:13:45,914 p=5894 u=rgehlot n=ansible | - downloading role 'update_management', owned by sbaerlocher
+2024-05-13 14:13:46,183 p=5894 u=rgehlot n=ansible | - downloading role from https://github.com/sbaerlocher/ansible.update-management/archive/1.0.5.tar.gz
+2024-05-13 14:13:46,497 p=5894 u=rgehlot n=ansible | - extracting sbaerlocher.update_management to /home/rgehlot/homelab/ansible/roles/sbaerlocher.update_management
+2024-05-13 14:13:46,502 p=5894 u=rgehlot n=ansible | - sbaerlocher.update_management (1.0.5) was installed successfully
+2024-05-13 14:14:13,373 p=5940 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:14:13,497 p=5940 u=rgehlot n=ansible | - downloading role 'mailhog', owned by geerlingguy
+2024-05-13 14:14:13,772 p=5940 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-mailhog/archive/2.3.0.tar.gz
+2024-05-13 14:14:14,178 p=5940 u=rgehlot n=ansible | - extracting geerlingguy.mailhog to /home/rgehlot/homelab/ansible/roles/geerlingguy.mailhog
+2024-05-13 14:14:14,182 p=5940 u=rgehlot n=ansible | - geerlingguy.mailhog (2.3.0) was installed successfully
+2024-05-13 14:14:14,182 p=5940 u=rgehlot n=ansible | - adding dependency: geerlingguy.daemonize
+2024-05-13 14:14:14,182 p=5940 u=rgehlot n=ansible | - downloading role 'daemonize', owned by geerlingguy
+2024-05-13 14:14:14,488 p=5940 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-daemonize/archive/1.2.2.tar.gz
+2024-05-13 14:14:14,815 p=5940 u=rgehlot n=ansible | - extracting geerlingguy.daemonize to /home/rgehlot/homelab/ansible/roles/geerlingguy.daemonize
+2024-05-13 14:14:14,818 p=5940 u=rgehlot n=ansible | - geerlingguy.daemonize (1.2.2) was installed successfully
+2024-05-13 14:15:54,027 p=6092 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:15:54,163 p=6092 u=rgehlot n=ansible | - downloading role 'ca_certificates', owned by arillso
+2024-05-13 14:15:54,466 p=6092 u=rgehlot n=ansible | - downloading role from https://github.com/arillso/ansible.ca-certificates/archive/1.0.1.tar.gz
+2024-05-13 14:15:54,898 p=6092 u=rgehlot n=ansible | - extracting arillso.ca_certificates to /home/rgehlot/homelab/ansible/roles/arillso.ca_certificates
+2024-05-13 14:15:54,902 p=6092 u=rgehlot n=ansible | - arillso.ca_certificates (1.0.1) was installed successfully
+2024-05-13 14:16:28,784 p=6147 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:16:28,935 p=6147 u=rgehlot n=ansible | - downloading role 'cron', owned by buluma
+2024-05-13 14:16:29,221 p=6147 u=rgehlot n=ansible | - downloading role from https://github.com/buluma/ansible-role-cron/archive/24.3.31.tar.gz
+2024-05-13 14:16:29,649 p=6147 u=rgehlot n=ansible | - extracting buluma.cron to /home/rgehlot/homelab/ansible/roles/buluma.cron
+2024-05-13 14:16:29,655 p=6147 u=rgehlot n=ansible | - buluma.cron (24.3.31) was installed successfully
+2024-05-13 14:16:47,449 p=6178 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:16:47,580 p=6178 u=rgehlot n=ansible | - downloading role 'veeam-agent', owned by sbaerlocher
+2024-05-13 14:16:47,902 p=6178 u=rgehlot n=ansible | - downloading role from https://github.com/sbaerlocher/ansible.veeam-agent/archive/1.1.0.tar.gz
+2024-05-13 14:16:48,614 p=6178 u=rgehlot n=ansible | - extracting sbaerlocher.veeam-agent to /home/rgehlot/homelab/ansible/roles/sbaerlocher.veeam-agent
+2024-05-13 14:16:48,618 p=6178 u=rgehlot n=ansible | - sbaerlocher.veeam-agent (1.1.0) was installed successfully
+2024-05-13 14:20:26,685 p=6505 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:20:26,847 p=6505 u=rgehlot n=ansible | - downloading role 'authorized_key', owned by arillso
+2024-05-13 14:20:27,181 p=6505 u=rgehlot n=ansible | - downloading role from https://github.com/arillso/ansible.authorized_key/archive/1.0.0.tar.gz
+2024-05-13 14:20:27,606 p=6505 u=rgehlot n=ansible | - extracting arillso.authorized_key to /home/rgehlot/homelab/ansible/roles/arillso.authorized_key
+2024-05-13 14:20:27,612 p=6505 u=rgehlot n=ansible | - arillso.authorized_key (1.0.0) was installed successfully
+2024-05-13 14:21:00,504 p=6560 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:21:00,642 p=6560 u=rgehlot n=ansible | - downloading role 'paloaltonetworks', owned by paloaltonetworks
+2024-05-13 14:21:00,991 p=6560 u=rgehlot n=ansible | - downloading role from https://github.com/PaloAltoNetworks/ansible-pan/archive/v2.4.1.tar.gz
+2024-05-13 14:21:02,799 p=6560 u=rgehlot n=ansible | - extracting paloaltonetworks.paloaltonetworks to /home/rgehlot/homelab/ansible/roles/paloaltonetworks.paloaltonetworks
+2024-05-13 14:21:02,853 p=6560 u=rgehlot n=ansible | - paloaltonetworks.paloaltonetworks (v2.4.1) was installed successfully
+2024-05-13 14:21:22,972 p=6596 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:21:23,125 p=6596 u=rgehlot n=ansible | - downloading role 'sssd', owned by timorunge
+2024-05-13 14:21:23,417 p=6596 u=rgehlot n=ansible | - downloading role from https://github.com/timorunge/ansible-sssd/archive/0.5.5.tar.gz
+2024-05-13 14:21:23,986 p=6596 u=rgehlot n=ansible | - extracting timorunge.sssd to /home/rgehlot/homelab/ansible/roles/timorunge.sssd
+2024-05-13 14:21:23,997 p=6596 u=rgehlot n=ansible | - timorunge.sssd (0.5.5) was installed successfully
+2024-05-13 14:22:45,290 p=6719 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:22:45,425 p=6719 u=rgehlot n=ansible | - downloading role 'postfix', owned by Oefenweb
+2024-05-13 14:22:45,752 p=6719 u=rgehlot n=ansible | - downloading role from https://github.com/Oefenweb/ansible-postfix/archive/v3.6.4.tar.gz
+2024-05-13 14:22:46,114 p=6719 u=rgehlot n=ansible | - extracting Oefenweb.postfix to /home/rgehlot/homelab/ansible/roles/Oefenweb.postfix
+2024-05-13 14:22:46,119 p=6719 u=rgehlot n=ansible | - Oefenweb.postfix (v3.6.4) was installed successfully
+2024-05-13 14:31:20,484 p=7484 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:31:20,635 p=7484 u=rgehlot n=ansible | - downloading role 'openssl', owned by robertdebock
+2024-05-13 14:31:20,992 p=7484 u=rgehlot n=ansible | - downloading role from https://github.com/robertdebock/ansible-role-openssl/archive/2.2.11.tar.gz
+2024-05-13 14:31:21,384 p=7484 u=rgehlot n=ansible | - extracting robertdebock.openssl to /home/rgehlot/homelab/ansible/roles/robertdebock.openssl
+2024-05-13 14:31:21,389 p=7484 u=rgehlot n=ansible | - robertdebock.openssl (2.2.11) was installed successfully
+2024-05-13 14:32:11,541 p=7562 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:32:11,667 p=7562 u=rgehlot n=ansible | - downloading role 'unattended_upgrades', owned by hifis
+2024-05-13 14:32:11,946 p=7562 u=rgehlot n=ansible | - downloading role from https://github.com/hifis-net/ansible-role-unattended-upgrades/archive/v3.2.1.tar.gz
+2024-05-13 14:32:12,495 p=7562 u=rgehlot n=ansible | - extracting hifis.unattended_upgrades to /home/rgehlot/homelab/ansible/roles/hifis.unattended_upgrades
+2024-05-13 14:32:12,502 p=7562 u=rgehlot n=ansible | - hifis.unattended_upgrades (v3.2.1) was installed successfully
+2024-05-13 14:32:31,546 p=7595 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:32:31,671 p=7595 u=rgehlot n=ansible | - downloading role 'fail2ban', owned by Oefenweb
+2024-05-13 14:32:31,941 p=7595 u=rgehlot n=ansible | - downloading role from https://github.com/Oefenweb/ansible-fail2ban/archive/v4.0.9.tar.gz
+2024-05-13 14:32:32,384 p=7595 u=rgehlot n=ansible | - extracting Oefenweb.fail2ban to /home/rgehlot/homelab/ansible/roles/Oefenweb.fail2ban
+2024-05-13 14:32:32,390 p=7595 u=rgehlot n=ansible | - Oefenweb.fail2ban (v4.0.9) was installed successfully
+2024-05-13 14:32:56,271 p=7634 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:32:56,411 p=7634 u=rgehlot n=ansible | - downloading role 'rabbitmq', owned by geerlingguy
+2024-05-13 14:32:56,721 p=7634 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-rabbitmq/archive/1.0.1.tar.gz
+2024-05-13 14:32:57,042 p=7634 u=rgehlot n=ansible | - extracting geerlingguy.rabbitmq to /home/rgehlot/homelab/ansible/roles/geerlingguy.rabbitmq
+2024-05-13 14:32:57,047 p=7634 u=rgehlot n=ansible | - geerlingguy.rabbitmq (1.0.1) was installed successfully
+2024-05-13 14:34:04,658 p=7740 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:34:04,801 p=7740 u=rgehlot n=ansible | - downloading role 'solr', owned by geerlingguy
+2024-05-13 14:34:05,076 p=7740 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-solr/archive/5.5.2.tar.gz
+2024-05-13 14:34:05,437 p=7740 u=rgehlot n=ansible | - extracting geerlingguy.solr to /home/rgehlot/homelab/ansible/roles/geerlingguy.solr
+2024-05-13 14:34:05,442 p=7740 u=rgehlot n=ansible | - geerlingguy.solr (5.5.2) was installed successfully
+2024-05-13 14:34:21,641 p=7767 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:34:21,766 p=7767 u=rgehlot n=ansible | - downloading role 'kubernetes', owned by geerlingguy
+2024-05-13 14:34:22,067 p=7767 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-kubernetes/archive/8.0.0.tar.gz
+2024-05-13 14:34:22,397 p=7767 u=rgehlot n=ansible | - extracting geerlingguy.kubernetes to /home/rgehlot/homelab/ansible/roles/geerlingguy.kubernetes
+2024-05-13 14:34:22,403 p=7767 u=rgehlot n=ansible | - geerlingguy.kubernetes (8.0.0) was installed successfully
+2024-05-13 14:34:43,136 p=7804 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:34:43,253 p=7804 u=rgehlot n=ansible | - downloading role 'disk', owned by AerisCloud
+2024-05-13 14:34:43,540 p=7804 u=rgehlot n=ansible | - downloading role from https://github.com/AerisCloud/ansible-disk/archive/v2.6.4.tar.gz
+2024-05-13 14:34:43,921 p=7804 u=rgehlot n=ansible | - extracting AerisCloud.disk to /home/rgehlot/homelab/ansible/roles/AerisCloud.disk
+2024-05-13 14:34:43,923 p=7804 u=rgehlot n=ansible | - AerisCloud.disk (v2.6.4) was installed successfully
+2024-05-13 14:36:08,279 p=7934 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:36:08,405 p=7934 u=rgehlot n=ansible | - downloading role 'openssl', owned by weareinteractive
+2024-05-13 14:36:08,689 p=7934 u=rgehlot n=ansible | - downloading role from https://github.com/weareinteractive/ansible-openssl/archive/2.2.1.tar.gz
+2024-05-13 14:36:09,109 p=7934 u=rgehlot n=ansible | - extracting weareinteractive.openssl to /home/rgehlot/homelab/ansible/roles/weareinteractive.openssl
+2024-05-13 14:36:09,117 p=7934 u=rgehlot n=ansible | - weareinteractive.openssl (2.2.1) was installed successfully
+2024-05-13 14:36:13,405 p=7946 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:36:13,530 p=7946 u=rgehlot n=ansible | - downloading role 'nvidia_driver', owned by nvidia
+2024-05-13 14:36:13,852 p=7946 u=rgehlot n=ansible | - downloading role from https://github.com/NVIDIA/ansible-role-nvidia-driver/archive/v2.3.0.tar.gz
+2024-05-13 14:36:14,196 p=7946 u=rgehlot n=ansible | - extracting nvidia.nvidia_driver to /home/rgehlot/homelab/ansible/roles/nvidia.nvidia_driver
+2024-05-13 14:36:14,202 p=7946 u=rgehlot n=ansible | - nvidia.nvidia_driver (v2.3.0) was installed successfully
+2024-05-13 14:36:38,787 p=7988 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:36:38,927 p=7988 u=rgehlot n=ansible | - downloading role 'samba', owned by bertvv
+2024-05-13 14:36:39,214 p=7988 u=rgehlot n=ansible | - downloading role from https://github.com/bertvv/ansible-role-samba/archive/v2.7.1.tar.gz
+2024-05-13 14:36:39,569 p=7988 u=rgehlot n=ansible | - extracting bertvv.samba to /home/rgehlot/homelab/ansible/roles/bertvv.samba
+2024-05-13 14:36:39,573 p=7988 u=rgehlot n=ansible | - bertvv.samba (v2.7.1) was installed successfully
+2024-05-13 14:40:30,772 p=8334 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:40:30,773 p=8334 u=rgehlot n=ansible | [WARNING]: - geerlingguy.redis (1.8.0) is already installed - use --force to change version to unspecified
+
+2024-05-13 14:40:46,599 p=8374 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:40:46,724 p=8374 u=rgehlot n=ansible | - downloading role 'puppet', owned by geerlingguy
+2024-05-13 14:40:47,071 p=8374 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-puppet/archive/3.2.1.tar.gz
+2024-05-13 14:40:47,435 p=8374 u=rgehlot n=ansible | - extracting geerlingguy.puppet to /home/rgehlot/homelab/ansible/roles/geerlingguy.puppet
+2024-05-13 14:40:47,441 p=8374 u=rgehlot n=ansible | - geerlingguy.puppet (3.2.1) was installed successfully
+2024-05-13 14:40:57,486 p=8396 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:40:57,486 p=8396 u=rgehlot n=ansible | [WARNING]: - geerlingguy.postgresql (3.5.1) is already installed - use --force to change version to unspecified
+
+2024-05-13 14:42:19,897 p=8519 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:42:20,045 p=8519 u=rgehlot n=ansible | - downloading role 'phpmyadmin', owned by geerlingguy
+2024-05-13 14:42:20,396 p=8519 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-phpmyadmin/archive/1.3.3.tar.gz
+2024-05-13 14:42:20,834 p=8519 u=rgehlot n=ansible | - extracting geerlingguy.phpmyadmin to /home/rgehlot/homelab/ansible/roles/geerlingguy.phpmyadmin
+2024-05-13 14:42:20,838 p=8519 u=rgehlot n=ansible | - geerlingguy.phpmyadmin (1.3.3) was installed successfully
+2024-05-13 14:42:20,839 p=8519 u=rgehlot n=ansible | [WARNING]: - dependency geerlingguy.apache (None) from role geerlingguy.phpmyadmin differs from already installed version (4.0.0), skipping
+
+2024-05-13 14:42:20,839 p=8519 u=rgehlot n=ansible | [WARNING]: - dependency geerlingguy.mysql (None) from role geerlingguy.phpmyadmin differs from already installed version (4.3.4), skipping
+
+2024-05-13 14:42:20,839 p=8519 u=rgehlot n=ansible | - adding dependency: geerlingguy.php-mysql
+2024-05-13 14:42:20,840 p=8519 u=rgehlot n=ansible | [WARNING]: - dependency geerlingguy.php (None) from role geerlingguy.phpmyadmin differs from already installed version (5.0.1), skipping
+
+2024-05-13 14:42:20,840 p=8519 u=rgehlot n=ansible | - downloading role 'php-mysql', owned by geerlingguy
+2024-05-13 14:42:21,136 p=8519 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-php-mysql/archive/2.1.0.tar.gz
+2024-05-13 14:42:21,530 p=8519 u=rgehlot n=ansible | - extracting geerlingguy.php-mysql to /home/rgehlot/homelab/ansible/roles/geerlingguy.php-mysql
+2024-05-13 14:42:21,534 p=8519 u=rgehlot n=ansible | - geerlingguy.php-mysql (2.1.0) was installed successfully
+2024-05-13 14:42:21,534 p=8519 u=rgehlot n=ansible | [WARNING]: - dependency geerlingguy.php (None) from role geerlingguy.php-mysql differs from already installed version (5.0.1), skipping
+
+2024-05-13 14:42:52,451 p=8572 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:42:52,451 p=8572 u=rgehlot n=ansible | [WARNING]: - geerlingguy.ntp (2.5.0) is already installed - use --force to change version to unspecified
+
+2024-05-13 14:44:42,423 p=8737 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:44:42,583 p=8737 u=rgehlot n=ansible | - downloading role 'htpasswd', owned by geerlingguy
+2024-05-13 14:44:42,942 p=8737 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-htpasswd/archive/2.1.0.tar.gz
+2024-05-13 14:44:43,348 p=8737 u=rgehlot n=ansible | - extracting geerlingguy.htpasswd to /home/rgehlot/homelab/ansible/roles/geerlingguy.htpasswd
+2024-05-13 14:44:43,354 p=8737 u=rgehlot n=ansible | - geerlingguy.htpasswd (2.1.0) was installed successfully
+2024-05-13 14:45:53,083 p=8846 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:45:53,235 p=8846 u=rgehlot n=ansible | - downloading role 'exim', owned by geerlingguy
+2024-05-13 14:45:53,565 p=8846 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-exim/archive/2.0.1.tar.gz
+2024-05-13 14:45:54,077 p=8846 u=rgehlot n=ansible | - extracting geerlingguy.exim to /home/rgehlot/homelab/ansible/roles/geerlingguy.exim
+2024-05-13 14:45:54,081 p=8846 u=rgehlot n=ansible | - geerlingguy.exim (2.0.1) was installed successfully
+2024-05-13 14:46:32,290 p=8907 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:46:32,442 p=8907 u=rgehlot n=ansible | - downloading role 'dotfiles', owned by geerlingguy
+2024-05-13 14:46:32,772 p=8907 u=rgehlot n=ansible | - downloading role from https://github.com/geerlingguy/ansible-role-dotfiles/archive/1.2.1.tar.gz
+2024-05-13 14:46:33,167 p=8907 u=rgehlot n=ansible | - extracting geerlingguy.dotfiles to /home/rgehlot/homelab/ansible/roles/geerlingguy.dotfiles
+2024-05-13 14:46:33,171 p=8907 u=rgehlot n=ansible | - geerlingguy.dotfiles (1.2.1) was installed successfully
+2024-05-13 14:48:07,827 p=9052 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:48:07,998 p=9052 u=rgehlot n=ansible | - downloading role 'interfaces', owned by MichaelRigart
+2024-05-13 14:48:08,271 p=9052 u=rgehlot n=ansible | - downloading role from https://github.com/MichaelRigart/ansible-role-interfaces/archive/v1.14.6.tar.gz
+2024-05-13 14:48:08,724 p=9052 u=rgehlot n=ansible | - extracting MichaelRigart.interfaces to /home/rgehlot/homelab/ansible/roles/MichaelRigart.interfaces
+2024-05-13 14:48:08,732 p=9052 u=rgehlot n=ansible | - MichaelRigart.interfaces (v1.14.6) was installed successfully
+2024-05-13 14:48:59,696 p=9133 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:48:59,819 p=9133 u=rgehlot n=ansible | - downloading role 'chrony', owned by ericsysmin
+2024-05-13 14:49:00,147 p=9133 u=rgehlot n=ansible | - downloading role from https://github.com/ericsysmin/ansible-role-chrony/archive/master.tar.gz
+2024-05-13 14:49:00,584 p=9133 u=rgehlot n=ansible | - extracting ericsysmin.chrony to /home/rgehlot/homelab/ansible/roles/ericsysmin.chrony
+2024-05-13 14:49:00,591 p=9133 u=rgehlot n=ansible | - ericsysmin.chrony (master) was installed successfully
+2024-05-13 14:50:03,922 p=9230 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:50:04,045 p=9230 u=rgehlot n=ansible | - downloading role 'grub', owned by robertdebock
+2024-05-13 14:50:04,398 p=9230 u=rgehlot n=ansible | - downloading role from https://github.com/robertdebock/ansible-role-grub/archive/2.1.8.tar.gz
+2024-05-13 14:50:04,784 p=9230 u=rgehlot n=ansible | - extracting robertdebock.grub to /home/rgehlot/homelab/ansible/roles/robertdebock.grub
+2024-05-13 14:50:04,790 p=9230 u=rgehlot n=ansible | - robertdebock.grub (2.1.8) was installed successfully
+2024-05-13 14:50:35,141 p=9281 u=rgehlot n=ansible | Starting galaxy role install process
+2024-05-13 14:50:35,141 p=9281 u=rgehlot n=ansible | [WARNING]: - geerlingguy.htpasswd (2.1.0) is already installed - use --force to change version to unspecified
+
+2024-05-13 15:06:27,663 p=10866 u=rgehlot n=ansible | ERROR! Empty playbook, nothing to do: /home/rgehlot/homelab/ansible/playbooks/plays.yml
+2024-05-13 15:07:18,882 p=11013 u=rgehlot n=ansible | ERROR! 'Name' is not a valid attribute for a Play
+
+The error appears to be in '/home/rgehlot/homelab/ansible/playbooks/plays.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- Name: Include roles
+  ^ here
+
+2024-05-13 15:07:42,082 p=11058 u=rgehlot n=ansible | ERROR! the playbook: local could not be found
+2024-05-13 15:07:47,480 p=11067 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:07:47,497 p=11067 u=rgehlot n=ansible | ERROR! 'Name' is not a valid attribute for a Play
+
+The error appears to be in '/home/rgehlot/homelab/ansible/playbooks/plays.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+- Name: Include roles
+  ^ here
+
+2024-05-13 15:08:09,911 p=11204 u=rgehlot n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead: /home/rgehlot/homelab/ansible/playbooks/plays.yml
+
+The error appears to be in '/home/rgehlot/homelab/ansible/playbooks/plays.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  hosts: localhost
+  ^ here
+
+2024-05-13 15:08:13,775 p=11219 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:08:13,793 p=11219 u=rgehlot n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead: /home/rgehlot/homelab/ansible/playbooks/plays.yml
+
+The error appears to be in '/home/rgehlot/homelab/ansible/playbooks/plays.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  hosts: localhost
+  ^ here
+
+2024-05-13 15:08:51,339 p=11496 u=rgehlot n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead: /home/rgehlot/homelab/ansible/playbooks/plays.yml
+
+The error appears to be in '/home/rgehlot/homelab/ansible/playbooks/plays.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  hosts: local
+  ^ here
+
+2024-05-13 15:08:53,313 p=11508 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:08:53,330 p=11508 u=rgehlot n=ansible | ERROR! A playbook must be a list of plays, got a <class 'ansible.parsing.yaml.objects.AnsibleMapping'> instead: /home/rgehlot/homelab/ansible/playbooks/plays.yml
+
+The error appears to be in '/home/rgehlot/homelab/ansible/playbooks/plays.yml': line 2, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+---
+  hosts: local
+  ^ here
+
+2024-05-13 15:09:37,429 p=11650 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for
+community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:09:37,429 p=11650 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:09:39,266 p=11662 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:09:39,328 p=11662 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:09:39,328 p=11662 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:13:29,769 p=12287 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for
+community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:13:29,769 p=12287 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:13:30,044 p=12307 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for
+community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:13:30,044 p=12307 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:13:30,303 p=12324 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for
+community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:13:30,303 p=12324 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:16:34,124 p=12838 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:16:34,189 p=12838 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:16:34,190 p=12838 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:17:00,228 p=12928 u=rgehlot n=ansible | {
+    "_meta": {
+        "hostvars": {}
+    },
+    "all": {
+        "children": [
+            "ungrouped"
+        ]
+    }
+}
+2024-05-13 15:17:02,656 p=12985 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for
+community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:17:02,656 p=12985 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:17:02,816 p=13001 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for
+community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:17:02,816 p=13001 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:17:03,303 p=13004 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:17:03,367 p=13004 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:17:03,368 p=13004 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:18:20,170 p=13281 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:18:20,232 p=13281 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:18:20,232 p=13281 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:19:24,586 p=13395 u=rgehlot n=ansible | [WARNING]:  * Failed to parse /home/rgehlot/homelab/ansible/inventory/hosts.yml with auto plugin: no root 'plugin' key found,
+'/home/rgehlot/homelab/ansible/inventory/hosts.yml' is not a valid YAML inventory plugin config file
+
+2024-05-13 15:19:24,586 p=13395 u=rgehlot n=ansible | [WARNING]:  * Failed to parse /home/rgehlot/homelab/ansible/inventory/hosts.yml with yaml plugin: Parsed empty YAML file
+
+2024-05-13 15:19:24,587 p=13395 u=rgehlot n=ansible | [WARNING]:  * Failed to parse /home/rgehlot/homelab/ansible/inventory/hosts.yml with ini plugin: Invalid host pattern '---' supplied, '---' is
+normally a sign this is a YAML file.
+
+2024-05-13 15:19:24,587 p=13395 u=rgehlot n=ansible | [WARNING]: Unable to parse /home/rgehlot/homelab/ansible/inventory/hosts.yml as an inventory source
+
+2024-05-13 15:19:24,587 p=13395 u=rgehlot n=ansible | [WARNING]: Unable to parse /home/rgehlot/homelab/ansible/inventory as an inventory source
+
+2024-05-13 15:19:24,587 p=13395 u=rgehlot n=ansible | [WARNING]: No inventory was parsed, only implicit localhost is available
+
+2024-05-13 15:19:24,589 p=13395 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:19:24,651 p=13395 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:19:24,652 p=13395 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:20:20,234 p=13499 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:20:20,294 p=13499 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:20:20,294 p=13499 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:20:56,408 p=13564 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:20:56,469 p=13564 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:20:56,469 p=13564 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+
+2024-05-13 15:21:05,706 p=13597 u=rgehlot n=ansible | [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit localhost does not match 'all'
+
+2024-05-13 15:21:05,767 p=13597 u=rgehlot n=ansible | [WARNING]: errors were encountered during the plugin load for community.general.timezone: ['endswith first arg must be str or a tuple of str,
+not list']
+
+2024-05-13 15:21:05,768 p=13597 u=rgehlot n=ansible | ERROR! couldn't resolve module/action 'timezone'. This often indicates a misspelling, missing collection, or incorrect module path.
+
+The error appears to be in '/home/rgehlot/homelab/ansible/roles/geerlingguy.ntp/tasks/main.yml': line 39, column 3, but may
+be elsewhere in the file depending on the exact syntax problem.
+
+The offending line appears to be:
+
+
+- name: Set timezone.
+  ^ here
+

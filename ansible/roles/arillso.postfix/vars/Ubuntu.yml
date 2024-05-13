@@ -1,0 +1,7 @@
+---
+# vars file for arillso.postfix
+
+postfix_packages:
+  - postfix
+
+psotfix_daemon_directory: /usr/lib/postfix/sbin

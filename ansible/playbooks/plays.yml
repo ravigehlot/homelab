@@ -1,1 +1,4 @@
 ---
+- hosts: localhost
+  roles:
+    - geerlingguy.ntp

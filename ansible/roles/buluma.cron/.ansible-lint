@@ -1,0 +1,22 @@
+---
+#
+# Ansible managed
+#
+exclude_paths:
+  - meta/preferences.yml
+  - molecule/default/prepare.yml
+  - molecule/default/converge.yml
+  - molecule/default/verify.yml
+  - molecule/default/collections.yml
+  - .tox
+  - .cache
+  - .github
+  - requirements.yml
+
+skip_list:
+  - yaml[truthy]
+  - galaxy[no-changelog]
+  - galaxy[tags]
+
+enable_list:
+  - name[prefix]

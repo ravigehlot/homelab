@@ -1,0 +1,14 @@
+---
+# tasks file for arillso.authorized_key
+
+- name: 'windows : Set {{ loop_authorized_key_user.username }} authorized key'
+  win_authorized_key:
+    user: '{{ loop_authorized_key_user.username }}'
+    comment: '{{ loop_authorized_key_user.comment | default(omit) }}'
+    exclusive: '{{ loop_authorized_key_user.exclusive | default(omit) }}'
+    key_options: '{{ loop_authorized_key_user.key_options | default(omit) }}'
+    key: '{{ loop_authorized_key_user.key  }}'
+    manage_dir: '{{ loop_authorized_key_user.manage_dir | default(omit) }}'
+    path: '{{ loop_authorized_key_user.path | default(omit) }}'
+    state: '{{ loop_authorized_key_user.state | default(omit) }}'
+    validate_certs: '{{ loop_authorized_key_user.validate_certs | default(omit) }}'

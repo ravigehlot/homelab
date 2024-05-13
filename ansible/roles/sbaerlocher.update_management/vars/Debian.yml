@@ -1,0 +1,5 @@
+---
+# vars file for sbaerlocher.update-management
+
+__update_management_Origins_Pattern:
+  - 'origin=Debian,codename=${distro_codename},label=Debian-Security'

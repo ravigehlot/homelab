@@ -1,0 +1,5 @@
+---
+# defaults file for arillso.authorized_key
+
+# By default it loads the variable from the user list.
+authorized_key_users: '{{ users | default() }}'

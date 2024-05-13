@@ -1,0 +1,8 @@
+---
+# tasks file for arillso.authorized_key
+
+- name: 'windows : include tasks'
+  include_tasks: subtasks/win_authorized_key.yml
+  loop: '{{ authorized_key_users }}'
+  loop_control:
+    loop_var: loop_authorized_key_user

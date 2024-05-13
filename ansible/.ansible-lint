@@ -1,4 +1,7 @@
 ---
 # .ansible-lint
 
+skip_list:
+  - 'yaml'
+
 profile: production # min, basic, moderate,safety, shared, production

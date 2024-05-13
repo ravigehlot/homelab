@@ -1,0 +1,21 @@
+# {{ ansible_managed }}
+
+NAME={{ item.1 }}
+DEVICE={{ item.1 }}
+BOOTPROTO=none
+MASTER={{ item.0.device }}
+ONBOOT=yes
+SLAVE=yes
+USERCTL=no
+
+{% if item.0.ethtool_opts is defined %}
+ETHTOOL_OPTS="{{ item.0.ethtool_opts }}"
+{% endif %}
+
+{% if item.1 is match(vlan_interface_regex) %}
+VLAN=yes
+{% endif %}
+
+{% if ansible_facts.distribution_major_version | int >= 7 %}
+NM_CONTROLLED={{ interfaces_use_networkmanager | ternary('yes', 'no') }}
+{% endif %}

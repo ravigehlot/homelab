@@ -1,0 +1,26 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: repo-remi
+  author: geerlingguy
+  description: Remi's RPM repository for RHEL/CentOS.
+  company: "Midwestern Mac, LLC"
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.10
+  platforms:
+    # I begrudgingly support EL here, only because remi is also
+    # critical to use of many projects on downstream projects.
+    - name: EL
+      versions:
+        - all
+  galaxy_tags:
+    - packaging
+    - epel
+    - repository
+    - repo
+    - remi
+    - php
+    - redhat
+    - rhel
+    - centos

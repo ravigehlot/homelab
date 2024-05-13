@@ -1,0 +1,46 @@
+---
+
+- name: Copy SSSD init script
+  copy:
+    dest: /etc/init.d/sssd
+    group: root
+    mode: 0755
+    owner: root
+    src: "sssd.init-{{ ansible_os_family }}"
+  notify:
+    - restart sssd
+  when: >
+        (not sssd_from_sources) and
+        (ansible_os_family == "RedHat")
+
+- name: Configure SSSD service (from config)
+  template:
+    dest: /etc/sssd/sssd.conf
+    group: root
+    mode: 0600
+    owner: root
+    src: sssd.conf.j2
+  notify:
+    - restart sssd
+  when: sssd_config_type == "config"
+
+- name: Configure SSSD service (from file)
+  copy:
+    dest: /etc/sssd/sssd.conf
+    group: root
+    mode: 0600
+    owner: root
+    src: "{{ sssd_config_src_file }}"
+  notify:
+    - restart sssd
+  when: sssd_config_type == "file"
+
+- name: Enable DNS lookup in sshd
+  lineinfile:
+    dest: /etc/ssh/sshd_config
+    regexp: "^UseDNS no"
+    line: "UseDNS yes"
+    backrefs: yes
+  notify:
+    - restart ssh
+  when: sssd_manage_sshd_dns_service_lookup
